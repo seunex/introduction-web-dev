@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms </title>
+    <style>
+        h1{
+            color : blue;
+            font-size: 60px;
+        }
+        #my-first-title{
+            color : red
+        }
+        #my-second-title{
+            font-style: italic;
+            color : black;
+        }
+        .input-title{
+            font-size : 30px;
+            color : pink;
+        }
+        input{
+            height : 40px;
+            width : 80vw;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1 id="my-first-title">Please create an account</h1>
+    <h1 id="my-second-title">Your makes us identify who you are</h1>
+    <form action="" method="get">
+        <p class="input-title">First Name</p>
+        <input type="text" name="first_name" />
+
+        <p class="input-title">Last Name</p>
+        <input type="text" name="last_name" />
+
+        <p class="input-title">Email Address</p>
+        <input type="email" name="email_address"  />
+
+        <p class="input-title">Password</p>
+        <input type="password" name="password" />
+
+        <p>
+            <button type="submit">Sign up for your account </button>
+        </p>
+    
+    </form>
+</body>
+</html>
